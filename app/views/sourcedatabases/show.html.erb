@@ -1,0 +1,14 @@
+<h1>
+    Showing selected Sourcedatabase
+</h1>
+
+<p>    DBName: <%=@sourcedatabase.DBName%></p>    
+<p>    Engine: <%=@sourcedatabase.Engine%></p>    
+<p> MasterUser: <%=@sourcedatabase.MasterUser%></p>         
+<p> MasterUserPassword: <%=@sourcedatabase.MasterUserPassword%> </p>        
+<p> Server: <%=@sourcedatabase.Server%></p> 
+<p> Port: <%=@sourcedatabase.Port%> </p>    
+
+<%= link_to "Edit this Source Database", edit_sourcedatabase_path(@sourcedatabase) %> |
+<%= link_to "Back to Source Database listing", sourcedatabases_path %>
+

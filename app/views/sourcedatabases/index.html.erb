@@ -1,0 +1,29 @@
+<h1>Listing all source databases</h1>
+
+<p> <%= link_to "Create new Source Database", new_sourcedatabase_path %> </p>
+
+<table>
+    <tr>
+        <th>DBName</th>
+        <th>Engine</th>
+        <th>MasterUser</th>
+        <th>MasterUserPassword</th>
+        <th>Server</th>
+        <th>Port</th>
+    </tr>
+    
+<% @sourcedatabases.each do |sourcedatabase| %>
+        <tr>
+        <td> <%= sourcedatabase.DBName %> </td>
+        <td> <%= sourcedatabase.Engine %> </td>
+        <td> <%= sourcedatabase.MasterUser %> </td>
+        <td> <%= sourcedatabase.MasterUserPassword %> </td>
+        <td> <%= sourcedatabase.Server %> </td>
+        <td> <%= sourcedatabase.Port %> </td>
+        <td> <%= link_to 'Edit', edit_sourcedatabase_path(sourcedatabase) %> </td>
+        <td> <%= link_to 'Show', sourcedatabase_path(sourcedatabase) %> </td>
+        <td> <%= link_to 'Delete', sourcedatabase_path(sourcedatabase), method: :delete, data: {confirm: "Are you sure?"} %> </td>
+    </tr>
+
+    <% end %>
+    </table>

@@ -1,0 +1,37 @@
+<h1>
+    Updated Source Database Record
+</h1>
+
+<% if @sourcedatabase.errors.any? %>
+<h2>
+    The following errors prevented the records from creating
+</h2>
+<ul>
+    <% @sourcedatabase.errors.full_messages.each do |msg| %>
+    <li>
+        <%= msg %>
+    </li>
+        <% end %>    
+</ul>
+        <% end %>    
+
+<%= form_for @sourcedatabase do |f| %>
+<p>
+    <%=f.label :DBName %> 
+    <%=f.text_field :DBName %>    <br/>
+        <%=f.label :Engine %> 
+    <%=f.text_field :Engine %>    <br/>
+        <%=f.label :MasterUser %> 
+    <%=f.text_field :MasterUser %>    <br/>
+        <%=f.label :MasterUserPassword %> 
+    <%=f.text_field :MasterUserPassword %> <br/>   
+        <%=f.label :Server %> 
+    <%=f.text_field :Server %>    <br/>
+        <%=f.label :Port %> 
+    <%=f.text_field :Port %>    
+</p>
+<p>
+    <%= f.submit %>
+
+</p>
+<% end %>    

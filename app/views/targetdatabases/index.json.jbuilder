@@ -1,0 +1,1 @@
+json.array! @targetdatabases, partial: 'targetdatabases/targetdatabase', as: :targetdatabase

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161127212128) do
+ActiveRecord::Schema.define(version: 20161130055456) do
 
   create_table "sourcedatabases", force: :cascade do |t|
     t.string   "DBName",             default: "VIS"
@@ -40,6 +40,13 @@ ActiveRecord::Schema.define(version: 20161127212128) do
     t.string   "DBInstanceClass",        default: "db.t2.micro"
     t.string   "VpcId",                  default: "vpc-cb674aae"
     t.string   "SubnetAvailabilityZone", default: "ap-southeast-2a"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "username"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -3382,3 +3382,953 @@ Processing by SourcedatabasesController#index as HTML
   Rendered sourcedatabases/index.html.erb within layouts/application (29.8ms)
   Rendered layouts/_messages.html.erb (0.1ms)
 Completed 200 OK in 50ms (Views: 45.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:10:00 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 2921ms (Views: 2912.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-35d578a68da3149e77fcf8b30a393dd37bef4e862b71a735c00b696f629f77a1.css?body=1" for 108.171.134.165 at 2016-11-30 04:10:04 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 108.171.134.165 at 2016-11-30 04:10:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:12:12 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1621ms (Views: 1620.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-e811dc9489f89bc95a8fe27467f921d8ab75696a1aa39d7982736af871af7909.css?body=1" for 108.171.134.165 at 2016-11-30 04:12:14 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:13:40 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:17:51 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...text-decoration": expected ";", was ": none;"):
+    2: <html>
+    3: <head>
+    4:   <title>Insync</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:16
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1625867145846559778_22761520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.5ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:18:18 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1390ms (Views: 1389.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-85730b40f9d014238ba2bdac981970fab43011443654d84ed0c34f1d0b4baf5f.css?body=1" for 108.171.134.165 at 2016-11-30 04:18:20 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:21:23 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases" for 108.171.134.165 at 2016-11-30 04:21:26 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#index as HTML
+  [1m[35mSourcedatabase Load (0.2ms)[0m  SELECT "sourcedatabases".* FROM "sourcedatabases"
+  Rendered sourcedatabases/index.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 79.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:21:28 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:25:05 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (2.8ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"sourcedatabases"} missing required keys: [:id]):
+    14:     <!-- Collect the nav links, forms, and other content for toggling -->
+    15:     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    16:       <ul class="nav navbar-nav">
+    17:         <li> <%= link_to "Sourcedatabases", sourcedatabase_path %> </li>
+    18:         <li><a href="#">Link</a></li>
+    19:         <li class="dropdown">
+    20:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  app/views/layouts/_navigation.html.erb:17:in `_app_views_layouts__navigation_html_erb__1445042374771478468_69945793074240'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1625867145846559778_22761520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.7ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:26:11 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases" for 108.171.134.165 at 2016-11-30 04:26:13 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#index as HTML
+  [1m[36mSourcedatabase Load (0.3ms)[0m  [1mSELECT "sourcedatabases".* FROM "sourcedatabases"[0m
+  Rendered sourcedatabases/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:26:16 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases" for 108.171.134.165 at 2016-11-30 04:26:19 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#index as HTML
+  [1m[35mSourcedatabase Load (0.2ms)[0m  SELECT "sourcedatabases".* FROM "sourcedatabases"
+  Rendered sourcedatabases/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 161ms (Views: 160.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:26:20 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:27:53 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:29:45 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (29.8ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `new_sourcedatabase' for #<#<Class:0x00000002c745f0>:0x007f3b1207c1d8>
+Did you mean?  new_sourcedatabase_url
+               new_sourcedatabase_path):
+    40:         <li class="dropdown">
+    41:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+    42:           <ul class="dropdown-menu">
+    43:             <li> <%= link_to "New Sourcedatabase", new_sourcedatabase %> </li>
+    44:             <li><a href="#">Another action</a></li>
+    45:             <li><a href="#">Something else here</a></li>
+    46:             <li role="separator" class="divider"></li>
+  app/views/layouts/_navigation.html.erb:43:in `_app_views_layouts__navigation_html_erb__1445042374771478468_69945834989760'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1625867145846559778_22761520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:30:11 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:30:16 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:30:26 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:31:18 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:31:35 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases/new" for 108.171.134.165 at 2016-11-30 04:32:56 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#new as HTML
+  Rendered sourcedatabases/_form.html.erb (28.4ms)
+  Rendered sourcedatabases/new.html.erb within layouts/application (30.5ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases/new" for 108.171.134.165 at 2016-11-30 04:33:19 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#new as HTML
+  Rendered sourcedatabases/_form.html.erb (3.1ms)
+  Rendered sourcedatabases/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases/new" for 108.171.134.165 at 2016-11-30 04:33:22 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#new as HTML
+  Rendered sourcedatabases/_form.html.erb (2.9ms)
+  Rendered sourcedatabases/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sourcedatabases/new" for 108.171.134.165 at 2016-11-30 04:37:39 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SourcedatabasesController#new as HTML
+  Rendered sourcedatabases/_form.html.erb (2.9ms)
+  Rendered sourcedatabases/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:37:39 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...#", class "btn-primary btn-lg");@output_buffer.safe_append='
+...                               ^
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+  app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:37:42 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...#", class "btn-primary btn-lg");@output_buffer.safe_append='
+...                               ^
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+  app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:12 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...#", class "btn-primary btn-lg");@output_buffer.safe_append='
+...                               ^
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+  app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.2ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:16 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...#", class "btn-primary btn-lg");@output_buffer.safe_append='
+...                               ^
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/rails_projects/Insync/app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+  app/views/welcome/home.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/home.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.4ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:40 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:43 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:45 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:45 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:38:45 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:40:49 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:41:42 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:41:47 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:41:49 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:42:02 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:42:05 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:43:30 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:43:56 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 495ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after ".": expected class name, was " center"):
+    2: <html>
+    3: <head>
+    4:   <title>Insync</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1625867145846559778_69945842041320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:44:16 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1364ms (Views: 1363.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-72accd6347a3768f1bdbc1a760fae52ab494fcd85418c38d6b31439f084222bb.css?body=1" for 108.171.134.165 at 2016-11-30 04:44:18 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:51:51 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1577ms (Views: 1576.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-d39257adec6351a475dcc3605815b58bdcf04f9ec50eeca070779e2a6530d19f.css?body=1" for 108.171.134.165 at 2016-11-30 04:51:54 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:52:00 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:52:48 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:54:44 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 144ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:55:10 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Blue_Cloud_Arrow_Medium-1cf4dc15046ceaf54639af55d5fd38086e31aa53413ad94daab24e2d75a3aba8.png" for 108.171.134.165 at 2016-11-30 04:55:11 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:56:36 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1771ms (Views: 1770.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-c4942862fb0c574e04e2990afaa0c133f5ff6a5c5e49f41be98b517a32bcb314.css?body=1" for 108.171.134.165 at 2016-11-30 04:56:39 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/InSync_log-d77bb3691692c11207ba7a5016bff96181be14988dcc0d0125c45b174075582c.png" for 108.171.134.165 at 2016-11-30 04:56:41 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:58:12 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...background-size": expected ";", was ": cover;"):
+    2: <html>
+    3: <head>
+    4:   <title>Insync</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:25
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1625867145846559778_69945794862420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.3ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:58:28 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1612ms (Views: 1611.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-7cea032503b9ba29888596fc45e28179aab34818ee16bb7411418808701b04d8.css?body=1" for 108.171.134.165 at 2016-11-30 04:58:31 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 04:58:47 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1471ms (Views: 1470.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-4ce6ac3ab9b37d0e6e3a055f00c5c7873a0ad5f91f059d418de29edeb742cd5c.css?body=1" for 108.171.134.165 at 2016-11-30 04:58:49 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:11:20 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (24.0ms)
+Completed 500 Internal Server Error in 1667ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x00000002c745f0>:0x007f3afa71b740>):
+     7:    </small>
+     8:   <nav>
+     9:    <ul>
+    10:      <li><%= link_to "About", about_path %></li>
+    11:    </ul>
+    12:    </nav>
+    13:   </footer>
+  app/views/layouts/_footer.html.erb:10:in `_app_views_layouts__footer_html_erb___750228128232378144_69945843367000'
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__1625867145846559778_69945643287460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.2ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:12:05 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-1d537f93c62a51a3772b0947a6a75ac06e969bfafa927fa561d9d489f78e85f5.css?body=1" for 108.171.134.165 at 2016-11-30 05:12:06 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:12:11 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:12:53 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1292ms (Views: 1292.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-48b396f9b527bad1da7da85d0251f34f628634c6171cc03183bced1d0e92aa3a.css?body=1" for 108.171.134.165 at 2016-11-30 05:12:55 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:14:24 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1722ms (Views: 1721.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-06f7716f1a75b64828a417afd812ae800f58af7e3733ec51bb889b0ba3326415.css?body=1" for 108.171.134.165 at 2016-11-30 05:14:27 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:16:36 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1359ms (Views: 1358.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-988c42593cda1a3950534159f4875cbefebfc21ecfbafceb7c655461e05d7288.css?body=1" for 108.171.134.165 at 2016-11-30 05:16:38 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:18:29 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1619ms (Views: 1618.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-1115757cfa44e82416293b395d0ea0fa6f08a40a6432b050a1f1c014b08a5dd7.css?body=1" for 108.171.134.165 at 2016-11-30 05:18:31 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:18:59 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1356ms (Views: 1355.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-18c8b183c40459e649c42af28a7292fd13e5e12e8187095229739a1b49066092.css?body=1" for 108.171.134.165 at 2016-11-30 05:19:01 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:19:33 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1607ms (Views: 1606.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-0fcb5fb54de5f34a175ad5ca4c89a4c83bb320ad4f423d0b3cd9555495c94713.css?body=1" for 108.171.134.165 at 2016-11-30 05:19:36 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:20:48 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1473ms (Views: 1472.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-be4ded8a726850eacb0e716168236b397352c2d37fe3a230470cd008ce852204.css?body=1" for 108.171.134.165 at 2016-11-30 05:20:50 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:21:07 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1401ms (Views: 1400.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-4efdf65255b95176ff6a9383c5f85bf3d5d23d9b0e067e38f40afc3e205298e4.css?body=1" for 108.171.134.165 at 2016-11-30 05:21:09 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:21:43 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1421ms (Views: 1420.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-afe1ef825280c7e310f1225cfff12175361fd81963df171b31af3efdfe5aac4e.css?body=1" for 108.171.134.165 at 2016-11-30 05:21:45 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:22:28 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1455ms (Views: 1454.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-eafa354b1f609cb122f47240283220b137611b1428d0bfb71546d5818817b1ee.css?body=1" for 108.171.134.165 at 2016-11-30 05:22:31 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:22:49 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1561ms (Views: 1560.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-985b00cd2cedd0c71e018a6c35e4b7de3f1660dc94d52ad228fb84638f1a1c50.css?body=1" for 108.171.134.165 at 2016-11-30 05:22:51 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:23:32 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1625ms (Views: 1624.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9b1edb2cbacde913b34ff71a9539bd3bcc45a4313e9e7f8b1e404ec8fd27237e.css?body=1" for 108.171.134.165 at 2016-11-30 05:23:34 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:24:11 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1501ms (Views: 1500.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-6db8631569ca4dc5978572ef608aab8f9726a3d2bbb7bc39be2b73cc1573cf0f.css?body=1" for 108.171.134.165 at 2016-11-30 05:24:14 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 05:24:39 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1388ms (Views: 1387.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-1afd8cd140e8fa97ab84efa936024db62fe58a234bd7c54b10f2e43dd78c3da8.css?body=1" for 108.171.134.165 at 2016-11-30 05:24:41 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

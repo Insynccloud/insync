@@ -3002,3 +3002,20 @@ Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 12
 
 Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 108.171.134.165 at 2016-11-29 22:57:56 +0000
 Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 108.171.134.165 at 2016-11-30 01:25:54 +0000
+Cannot render console from 108.171.134.165! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SourcedatabasesController#show as HTML
+  [1m[35mSourcedatabase Load (0.2ms)[0m  SELECT  "sourcedatabases".* FROM "sourcedatabases" WHERE "sourcedatabases"."id" = ? LIMIT 1  [["id", nil]]
+Completed 404 Not Found in 32ms (ActiveRecord: 0.6ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Sourcedatabase with 'id'=):
+  app/controllers/sourcedatabases_controller.rb:57:in `set_sourcedatabase'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.6ms)

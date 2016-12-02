@@ -32,6 +32,7 @@ end
     def create
         #render plain: params[:sourcedatabase].inspect
        @sourcedatabase = Sourcedatabase.new(sourcedatabase_params)
+       @sourcedatabase.user = User.first    
        if @sourcedatabase.save
            flash[:notice] = "Sourcedatabase was successfully created"
            redirect_to sourcedatabase_path(@sourcedatabase)

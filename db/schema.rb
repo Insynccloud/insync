@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161130055456) do
+ActiveRecord::Schema.define(version: 20161202020032) do
 
   create_table "sourcedatabases", force: :cascade do |t|
     t.string   "DBName",             default: "VIS"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20161130055456) do
     t.string   "Port",               default: "1521"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "targetdatabases", force: :cascade do |t|
